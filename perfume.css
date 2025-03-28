@@ -1,36 +1,47 @@
-.div-perfume{
+.div-perfume {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
-.card{
+.card {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
     background-color: rgb(247, 215, 250);
+    margin: 10px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card-title{
+.card-title {
     font-size: 30px;
     font-family: 'Encode Sans SC', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
-.card-text{
-    margin-top: 40px;
-    font-family: 'Encode Sans SC', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.card-price{
+.card-text {
+    margin-top: 20px;
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
 }
 
-.btnPerfume{
+.card-price {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnPerfume {
     background-color: #bf51eb;
     color: white;
     padding: 10px 20px;
@@ -40,4 +51,55 @@
     margin-top: 15px;
     font-size: 1em;
     font-family: 'Encode Sans SC', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 600px;
+    }
+
+    .card-title {
+        font-size: 35px;
+    }
+
+    .card-text {
+        font-size: 22px;
+    }
+
+    .card-price {
+        font-size: 20px;
+    }
+
+    .btnPerfume {
+        width: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 100%;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .card-price {
+        font-size: 16px;
+    }
+
+    .btnPerfume {
+        font-size: 0.9em;
+    }
 }
