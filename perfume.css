@@ -1,0 +1,43 @@
+.div-perfume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(247, 215, 250);
+}
+
+.card-title{
+    font-size: 30px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 700;
+}
+
+.card-text{
+    margin-top: 40px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-price{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btnPerfume{
+    background-color: #bf51eb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 15px;
+    font-size: 1em;
+    font-family: 'Encode Sans SC', sans-serif;
+}
