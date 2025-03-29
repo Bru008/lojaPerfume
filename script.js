@@ -26,6 +26,7 @@ const estadosRegiao = {
         "GO": valorFrete.centroOeste,
         "MT": valorFrete.centroOeste,
         "MS": valorFrete.centroOeste,
+        "DF": valorFrete.centroOeste,
         "MG": valorFrete.sudeste,
         "ES": valorFrete.sudeste,
         "RJ": valorFrete.sudeste,
